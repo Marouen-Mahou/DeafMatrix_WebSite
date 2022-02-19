@@ -1,0 +1,707 @@
+@media (max-width: 320px){
+    .butn-explore {
+        margin-top: 25px;
+    }
+    .writer-container{
+        margin-top: 30px;
+    }
+    .writer-container p span{
+        font-size: 20px;
+    }
+    .butn-explore {    
+        height: 50px;   
+        font-size: 20px; 
+        margin-top: 50px;   
+    }
+    }
+    @media only screen and (min-width: 320px) and (max-width: 767px){
+        html,
+        body{
+            overflow-x: hidden !important;        
+        }
+        .c-plr-0{
+            padding-left: 0px;
+            padding-right: 0px; 
+        }
+        .header_bg{
+            position: relative;
+        }
+        .header_bg:after{
+            position: absolute !important;
+            content: '';
+            width: 100%;
+            height: 10px;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #000 !important;
+        }
+        .typewriter_cover 
+        .banner_btn
+        {
+            margin-top: -45px !important;       
+        }
+          .typewriter_cover 
+        .banner_btn
+        .butn-explore{       
+            height: 55px;   
+            font-size: 22px; 
+        }
+        .page.our_mission{
+            padding-top: 40px;
+            padding-bottom: 40px;
+        } 
+         .page .container {
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, .4);
+        }
+        .page .container:hover {
+            transform: scale(1) !important;        
+        }
+    
+        .main_menu ul li a {    
+            font-size: 20px !important;    
+        }
+        .connect-row{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        .connect-sec{
+            padding: 0px !important;
+            margin-top: 50px;
+        }
+        .connect-sec .title{
+            margin-bottom: 25px;
+        }
+        .connect-sec .desc{
+            font-size: 16px !important;
+        }
+        .countdown_row p{
+            padding: 8px;
+        }
+        .countdown_row p span{
+            font-size: 40px !important;
+        }
+        .countdown_l_title {
+            font-size: 45px;    
+        }
+        .countdown_footer{
+         position: absolute;
+         bottom: 35px;
+         left: 50%;
+         transform: translatex(-50%);
+         width: 100%;
+        }
+        .button-row{
+            display: flex;
+            justify-content: space-around;
+        }
+        .button-row button{
+            width: 50%;
+        }
+        .button-row button img{
+            max-width: 100%;
+            padding: 0;
+        }
+    
+    
+        /* Events Section */
+        .event-sec{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            padding-top: 30px !important;
+            margin-bottom: 0px !important;
+        }
+        .event-sec .desc{
+            font-size: 16px !important;
+            margin-top: 20px;
+        }
+    
+        .event-sec 
+        #events_hover:hover {
+            transform: scale(1, 1) translateX(0px) translateY(12px);
+        }
+        .event-sec
+        .card_m{
+            max-width: 100% !important;
+            overflow: hidden !important;
+        }
+    
+        /* News Feed Title */
+        .news-feed-title{
+            margin-bottom: 20px;
+        }
+        .news-sec{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            padding-top: 20px !important;
+        }
+        .news-sec .desc{
+            font-size: 16px !important;
+            margin-top: 20px;
+        }
+    
+        /* Our Mission */
+        .mission_sec{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        .mission_info .desc{
+            margin-top: 20px !important;
+        }
+        .our_mission .mission_title{
+            text-align: center !important;
+        }
+    
+        /* Footer*/
+        #contact_us.footer-copyright{
+            display: flex !important;
+            justify-content: center !important;        
+        }
+        .footer-copyright img,
+        .face_icon img,
+        .footer-copyright .copyright{
+            position: relative !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        section#contact .container_contact {
+            width: 100% !important;
+            float: left;
+        }
+        
+        section#contact .direct-message {
+            position: relative;
+            float: left;
+            width: 100%;
+            margin-top: -20px;
+        }
+        
+        div#myModal4 section#contact {
+            float: left;
+            width: 100%;
+        }
+        
+        div#myModal4 .modal-body {
+            height: 401px !important;
+            float: left;
+        }
+        
+        section#contact .direct-message a {
+            width: 18%;
+            float: left;
+            margin: 0;
+            margin-right: 10px;
+        }
+        
+        section#contact .direct-message a span {
+            font-size: 14px;
+        }
+        
+        section#contact .direct-message  .buttons {
+            width: 100% !important;
+            display: block;
+            padding-left: 94px;
+        }
+        
+        section#contact .direct-message a span:nth-child(2) {
+            display: none;
+        }
+        
+        section#contact .direct-message span.title_DM {
+            margin-left: 0 !important;
+        }
+        
+        div#myModal4  .modal-footer {
+            display: none;
+        }
+        .countdown-section.countdown_modal .container {
+            padding: 0;
+            height: 100%;
+        }
+        .countdown-section.countdown_modal .container .col-xl-6.col-lg-8.col-md-10.mx-auto {
+            padding: 0;
+            height: 100%;
+        }
+        .countdown-section.countdown_modal  .row {
+            height: 100%;
+        }
+        .countdown-section.countdown_modal .container .col-xl-6.col-lg-8.col-md-10.mx-auto .countdown_design {
+            height: 100%;
+            padding-top: 70px;
+            top: 0;
+        }
+        .countdown-section.countdown_modal .container .col-xl-6.col-lg-8.col-md-10.mx-auto .countdown_design h1.countdown_title.countdown_l_title {
+            color: #ffffff;
+        }
+        .countdown-section.countdown_modal .countdown_footer p {
+            color: #ffffff;
+            bottom: 54px;
+            /* position: absolute; */
+            z-index: 99999;
+        }
+        .typewriter_cover {
+            height: 59vh;
+        }
+        
+        .header_bg {
+            float: left;
+            width: 100%;
+        }
+    
+        /* Contact Modal */
+        section#contact .direct-message .buttons{
+            display: flex !important;
+            flex-direction: row !important;
+            justify-content: center !important;
+            padding-left: 0px !important;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        html,
+        body{
+            overflow-x: hidden !important;        
+        }
+         
+        
+        /* Banner */
+        .typewriter_cover{
+            height: 70vh !important;
+        }
+        .connect-row{
+            padding-top: 0px !important;
+            padding-bottom: 20px;
+        }
+        .writer-container{
+            margin-top: 100px;
+        }
+        .connect-sec .desc{
+            font-size: 16px !important;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .connect-sec #connect-hover:hover{
+            transform: scale(1, 1) translateX(0px) translateY(12px);
+        }
+    
+        /* Event Secton */
+        .event-sec{
+            padding-bottom: 20px;
+            margin-bottom: 0px !important;
+        }
+        .event-sec .desc{
+            font-size: 16px !important;
+            margin-top: 20px;
+        }
+        .event-sec 
+        #events_hover:hover {
+            transform: scale(1, 1) translateX(0px) translateY(12px);
+        }
+    
+        /* News Feed Title */
+        
+        .news-sec{
+            padding-bottom: 20px !important;
+        }
+        .news-sec .desc{
+            font-size: 16px !important;
+            margin-top: 20px;
+        }
+        .news-sec #news_hover:hover{
+            transform: scale(1, 1) translateX(0px) translateY(12px);
+        }
+    
+        /* Bubbles */
+         .bubble-row-features{       
+            padding-bottom: 50px;
+        }
+    
+    }
+    
+    
+    @media screen and (-webkit-min-device-pixel-ratio:0) { 
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .row.ipad-nowrap .col-lg-4.col-md-4.col-sm-4.col-4 {
+        position: absolute;
+        right: 0;
+        padding: 0;
+        margin-right: 20px;
+    }
+    div#connect div#hide_me {
+        position: absolute;
+        right: 0;
+    }
+    div#idevents .col-lg-6.col-md-12.htg {
+        position: absolute;
+        right: 0;
+    }
+    div#idnewsfeed div#hide_me3 {
+        position: absolute;
+        right: 0;
+    }
+    div#hide_bubbles .row.mt-3 .col-lg-4:nth-child(3) {
+        position: absolute;
+        right: 0;
+    }
+    .page.our_mission .d-md-block.d-none {
+        float: right;
+        position: absolute;
+        right: 22px;
+    }
+    .page.our_mission .d-md-block.d-none{
+        height: 470px !important;
+    }
+    }  
+    @media screen and (-webkit-min-device-pixel-ratio:0) { 
+       @media only screen and (min-width:1200px) {
+           div#connect div#hide_me {
+        position: absolute;
+        right: 0;
+    }
+    div#idevents .col-lg-6.col-md-12.htg {
+        position: absolute;
+        right: 0;
+    }
+    div#idnewsfeed div#hide_me3 {
+        position: absolute;
+        right: 0;
+    }
+    div#hide_bubbles .row.mt-3 .col-lg-4:nth-child(3) {
+        position: absolute;
+        right: 0;
+    }
+    .page.our_mission .d-md-block.d-none {
+        float: right;
+        position: absolute;
+        right: 22px;
+    }
+    .page.our_mission .d-md-block.d-none{
+        height: 470px !important;
+    }
+    .header_bg .row.ipad-nowrap .col-lg-4 {
+        position: absolute;
+        right: 15px;
+    }
+    div#idevents .hti {
+        position: absolute;
+        right: 0;
+    }
+    }
+    }
+    @media only screen and (min-width:320px) and (max-width:767px) {
+    h1.countdown_title.countdown_l_title {
+        font-size: 30px;
+        color: #000000 !important;
+    }
+    
+    .countdown-section.countdown_modal .container .col-xl-6.col-lg-8.col-md-10.mx-auto .countdown_design {
+        padding-top: 40px;
+        height: 370px;
+    }
+    
+    .countdown-section.countdown_modal .countdown_footer p {
+        color: #000000;
+    }
+    .col-md-6.pht {
+        display: none;
+    }
+    }
+    @media only screen and (min-width:320px) and (max-width:1023px) {
+    div#myModal5 .modal-body dt {
+        text-align: left;
+    }
+    }
+    }
+    @media only screen and (max-width: 1199.98px) and (min-width: 992px){
+        .header_bg .row,
+         .header_bg .ipad-nowrap{
+            flex-wrap: nowrap !important;
+        }
+       .row.ipad-nowrap .col-lg-4.col-md-4.col-sm-4.col-4 {
+        position: absolute;
+        right: 0;
+        padding: 0;
+        margin-right: 20px;
+    }
+        .typewriter_cover {
+            width: 100%;
+            background-image: url(../pictures/bg2-ipad.jpg) !important;       
+            background-size: cover;
+            height: 60vh;        
+             margin-top: -160px;
+        }
+        .writer-container{
+              margin-top: 468px;
+        }
+         .typewriter_cover .banner_btn {
+             margin-top: -10px;
+        } 
+        .writer-container p span{
+            font-size: 35px;
+        }
+        .arrow_buttons p{
+            font-size: 30px;
+        }
+    }
+    
+    
+    @media only screen and (min-width: 1024px){
+        .connect-sec .desc{
+            font-size: 18px !important;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        /* Event Section */
+         .event-sec .desc{
+            font-size: 18px !important;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    
+        /* News Section */
+        .news-sec{
+            padding-bottom: 20px;
+        }
+        .news-sec .desc{
+            font-size: 18px !important;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    
+        /* Bubble Sec */
+        .bubble-row-features{
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+        .col-md-6.pht {
+        padding: 0;
+        height: 100%;
+    }
+    
+    .col-md-6.pht img.img-responsive {
+        height: 100%;
+        border-radius: 0px 25px 25px 0px;
+    }
+    
+    .col-md-6.misn {
+        padding: 0;
+    }
+    
+    .col-md-6.misn .card_m {
+        padding-bottom: 2px;
+    }
+    }
+    
+    .countdown_design .close_button {
+        border: none !important;
+        background: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 40px;
+        height: 40px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-right: 15px;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    
+    .typewriter_cover 
+    .banner_btn{
+        margin-top: 30px;
+    }
+    section#contact .container_contact {
+        width: 55%;
+        float: left;
+    }
+    
+    section#contact .contact-wrapper {
+        width: 100%;
+        float: left;
+    }
+    
+    section#contact .container_contact fieldset {
+        width: 100%;
+    }
+    #customers-teams .item {
+        height: auto !important;    
+      }
+    
+      @media (min-width: 1441px){
+        .connect-text {
+        padding-top: 0px !important;
+        }
+        .connect-row{
+            align-items: center !important;
+        }
+    }
+    @media only screen and (min-width:768px) and (max-width:1192px) {
+        
+    .col-md-6.misn {
+        float: left;
+    }
+    
+    .col-md-6.pht {
+        float: left;
+    }
+    
+    .col-md-6.pht .photo {height: 100%;}
+    
+    .col-md-6.misn .card_m {
+        padding: 7px;
+        border-radius: 25px 0px 0px 25px !important;
+        height: 482px !important;
+    }
+    
+    .col-md-6.pht .photo {
+        height: 482px !important;
+    }
+       .col-md-6.pht {
+        padding: 0;
+        height: 100%;
+    }
+    
+    .col-md-6.pht img.img-responsive {
+        height: 100%;
+        border-radius: 0px 25px 25px 0px;
+    }
+    
+    .col-md-6.misn {
+        padding: 0;
+    }
+    }
+    
+    @media only screen and (min-width:1024px) and (max-width:1279px) {
+        footer.background_footer div#contact_us p {
+        font-size: 12px;
+    }
+    footer.background_footer div#contact_us img {
+        margin-top: 10px;
+    }
+    footer.background_footer .foot .policy {
+        margin: 0;
+    }
+    footer.background_footer .foot .policy button.btn_modal {
+        padding: 5px;
+        font-size: 14px;
+    }
+    footer.background_footer div#contact_us {
+        padding-top: 0;
+        margin-top: 7px;
+    }
+    }
+    
+    @media only screen and (min-width:1280px) {
+        div#connect p.desc,div#idevents p.desc,div#idnewsfeed p.desc {
+        padding: 0px 84px;
+        }
+    }
+    @media only screen and (min-width:1700px) {
+        div#idevents p.desc{
+            padding: 0px 164px;
+        }
+    }
+    @media only screen and (min-width:320px) and (max-width:1023px) {
+        footer.background_footer #contact_us p {
+        font-size: 12px;
+    }
+    
+    footer.background_footer .col-md-4.face_icon {
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+        max-width: inherit;
+    }
+    
+    footer.background_footer .col-md-6.foot {
+        padding: 0;
+        width:100%;
+        margin: 0 auto;
+        max-width: inherit;
+    }
+    
+    footer.background_footer .col-md-6.foot .policy button.btn_modal {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+    
+    footer.background_footer .col-md-2 {
+        margin: 0 auto;
+        width: 100% !important;
+        max-width: initial;
+    }
+    
+    footer.background_footer .col-md-2 li {
+        margin-left: 18px;
+    }
+    
+    footer.background_footer .col-md-6.foot .policy {
+        margin-top: 15px;
+        align-items: center;
+        text-align: center;
+    }
+    .quote_cover2 {
+        height: 100vh;
+    }
+    
+    .quote_cover2 .features,.quote_cover2 .features2 {
+        margin: 0;
+    }
+    
+    .quote_cover2 .features h3, .quote_cover2 .features2 h3 {
+        font-size: 15px !important;
+        font-weight: normal;
+        margin-top: 5px;
+    }
+    
+    .quote_cover2 .features p, .quote_cover2 .features2 p {
+        font-size: 12px;
+    }
+    
+    .quote_cover2 .features {right: 15px;width: 40%;}
+    
+    .quote_cover2 .features2 {
+        width: 40%;
+        left: 12px;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:767px) {
+    div#myModal1 .modal-body,div#myModal2 .modal-body,div#myModal3 .modal-body,div#myModal5 .modal-body  {
+    height: 340px !important;
+    overflow-y: scroll;
+    text-align: left;
+}
+div#myModal5 .modal-content {
+    margin-top: 19px !important;
+}
+}
+@media only screen and (max-width:359px) {
+    div#myModal1 .modal-body,div#myModal2 .modal-body,div#myModal3 .modal-body,div#myModal5 .modal-body  {
+    height: 300px !important;
+      overflow-y: scroll;
+    text-align: left;
+    }
+}
+@media only screen and (max-width:1023px) {
+    div#myModal1 .modal-body,div#myModal2 .modal-body,div#myModal3 .modal-body,div#myModal5 .modal-body  {
+          text-align: left;
+    }
+}
+@media only screen and (orientation:landscape) {
+    .quote_cover2 {
+        height: 150vh;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .quote_cover2 .features p, .quote_cover2 .features2 p {
+        font-size: 14px;
+    }
+    .quote_cover2 .features h3, .quote_cover2 .features2 h3 {
+        font-size: 18px !important;
+        font-weight: normal;
+        margin-top: 5px;
+    }
+    .quote_cover2 {
+        height: 58vh !important;
+    }
+}
